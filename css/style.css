@@ -1,0 +1,112 @@
+body{
+	
+	height: 100%;
+	margin:0%;
+	
+	background-image:radial-gradient(95% 80% at top left,transparent 100%, #fff 92.5%),
+					 linear-gradient(135deg, #DBBDFD 0%,#7367F0 100%);
+	 background-size:110% 100%;
+	 background-repeat: no-repeat;
+
+/* background:linear-gradient(135deg, #CE9FFC 0%,#7367F0 100%); #D9DFF3*/
+
+
+}
+
+html{
+	height: 100%;
+	width: 100%;
+	margin: 0%;
+}
+
+.nav-item{
+	font-size: 20px;
+	color: black !important;
+	font-weight: bold;
+
+}
+.navbar{
+	box-shadow: none;
+}
+
+.navbar-nav{
+	margin-right: 2%;
+
+}
+
+.nav-link{
+	color: #151A48;
+}
+
+.nav-link: hover{
+	color: #ffa000 !important;
+}
+
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(21, 26, 72, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+
+
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+.fixed-top.scrolleded {
+  background-color: #ffffff !important;
+  transition: background-color 200ms linear;
+}
+
+.fixed-top.scrolled .nav-link {
+  color:#555;
+}
+
+
+.dev-desc{
+	font-size: 30px;
+	font-weight: bolder;
+	color: #FF6347;
+}
+
+.mobile{
+	display: none;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+       .mobile{display: block;}
+       .desktop {display: none;}
+    }
+
+footer{
+	background:linear-gradient(135deg, #DBBDFD 0%,#7367F0 100%);;
+}
